@@ -77,8 +77,8 @@ footer {
     height: calc(100vh - 80px);
     width: 33%;
     overflow: hidden;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
     position: relative;
     -webkit-box-align: center;
     align-items: center;
@@ -123,8 +123,8 @@ footer {
     color: #fff;
     margin-left: -70px;
     opacity: .3;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     -webkit-filter: blur(1px);
     filter: blur(1px);
 }
@@ -191,8 +191,8 @@ button {
     opacity: 0;
     outline: 0;
     margin-left: -60px;
-    -webkit-transition: margin .2s ease-in-out, opacity .2s ease-in-out, background-color .2s ease;
-    transition: margin .2s ease-in-out, opacity .2s ease-in-out, background-color .2s ease;
+    -webkit-transition: margin .5s ease-in-out, opacity .5s ease-in-out, background-color .5s ease;
+    transition: margin .5s ease-in-out, opacity .5s ease-in-out, background-color .5s ease;
 }
 
 button:hover {
