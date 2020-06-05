@@ -191,8 +191,8 @@ button {
     opacity: 0;
     outline: 0;
     margin-left: -60px;
-    -webkit-transition: margin .5s ease-in-out, opacity .5s ease-in-out, background-color .2s ease;
-    transition: margin .5s ease-in-out, opacity .5s ease-in-out, background-color .2s ease;
+    -webkit-transition: margin .2s ease-in-out, opacity .2s ease-in-out, background-color .2s ease;
+    transition: margin .2s ease-in-out, opacity .2s ease-in-out, background-color .2s ease;
 }
 
 button:hover {
