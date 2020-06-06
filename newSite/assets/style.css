@@ -104,19 +104,19 @@ footer {
 }
 
 .nav-item:nth-child(1) .nav-item-bg {
-    background: url("https://res.cloudinary.com/riadjoseph/image/upload/dpr_auto,f_auto,q_auto/v1591302975/4.png") no-repeat bottom center/cover;
+    background: url("assets/images/website-sales-navigator-unsplash.jpg") no-repeat bottom center/cover;
 }
 
 .nav-item:nth-child(2) .nav-item-bg {
-    background: url("https://res.cloudinary.com/riadjoseph/image/upload/dpr_auto,f_auto,q_auto/v1591302975/1.png") no-repeat center bottom/cover;
+    background: url("assets/images/tunnel-william-daigneault-unsplash.jpg") no-repeat center bottom/cover;
 }
 
 .nav-item:nth-child(3) .nav-item-bg {
-    background: url("https://res.cloudinary.com/riadjoseph/image/upload/dpr_auto,f_auto,q_auto/v1591302975/3.png") no-repeat center center/cover;
+    background: url("assets/images/structure-william-daigneault-unsplash.jpg") no-repeat center center/cover;
 }
 
 .nav-item:nth-child(4) .nav-item-bg {
-    background: url("https://res.cloudinary.com/riadjoseph/image/upload/dpr_auto,f_auto,q_auto/v1591302975/2.png") no-repeat center center/cover;
+    background: url("assets/images/payment-nathan-dumlao-unsplash.jpg") no-repeat center center/cover;
 }
 
 .nav-item .nav-item-content {
@@ -125,8 +125,8 @@ footer {
     opacity: .3;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
+    -webkit-filter: blur(0.1px);
+    filter: blur(0.1px);
 }
 
 .nav-item .nav-item-content h2 {
@@ -191,8 +191,8 @@ button {
     opacity: 0;
     outline: 0;
     margin-left: -60px;
-    -webkit-transition: margin .5s ease-in-out, opacity .5s ease-in-out, background-color .5s ease;
-    transition: margin .5s ease-in-out, opacity .5s ease-in-out, background-color .5s ease;
+    -webkit-transition: margin .4s ease-in-out, opacity .6s ease-in-out, background-color .5s ease;
+    transition: margin .4s ease-in-out, opacity .6s ease-in-out, background-color .5s ease;
 }
 
 button:hover {
