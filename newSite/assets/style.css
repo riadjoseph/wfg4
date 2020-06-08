@@ -23,13 +23,13 @@ footer {
 .logo {
     max-width: 100px;
     margin: auto;
-    position: relative;
+    position: inherit;
 }
 
-.logo .legends {
+.logo {
     font-family: 'Shadows Into Light', cursive;
     font-size: larger;
-    position: absolute;
+    position: inherit;
     color: #e9bc00;
     bottom: auto;
     left: 60%;
@@ -144,9 +144,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
     .nav-item .nav-item-content h2 {
-        font-size: 50px;
+        font-size: 45px;
     }
 }
 
