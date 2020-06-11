@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -19,10 +19,12 @@
     <link rel="prefetch" href="https://embed.typeform.com/embed.js">
     <link rel='stylesheet' href='assets/privacystyle.css' type='text/css' media='all' />
     <link rel='stylesheet' href='assets/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='node_modules/normalize.css/' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/normalize.css/normalize.css' type='text/css' media='all' />
 
 
 </head>
+<div><span class="choose-language" style="text-underline-position: under;padding-left: 10px;"><a href="https://webforgood.fr/privacy.html">🇬🇧</a></span></div>
+
 <header style="background-color: black;
     height: 80px;
     text-align: center;">
@@ -32,11 +34,11 @@
         <a href="index.html">
             <img src="https://res.cloudinary.com/riadjoseph/image/upload/dpr_auto,f_auto,q_auto/v1591303768/Copy_of_Copy_of_Webforgood-4.png" alt="WebForGood logo" title="WebForGood logo">
         </a>
-        <div><span class="legends">web&amp;seo</span></div>
     </div>
 </header>
+<div class="section" style="margin-right: 10px;"><span class="legends container" style="position: sticky; font-size: 18px;">boutique agency SEO&amp;WEB</span></div>
 
-<body>
+<body tabIndex=0>
 
     <section class="links-underlined">
         <h1>Confidentialité</h1>
@@ -49,20 +51,59 @@
                 via votre navigateur, contactez-nous si vous trouvez des difficultés à le faire.</p>
 
             <h2 class="tab-label collapsed">Vos informations</h2>
-            <p>En utilisant notre formulaire vous agréez à recevoir notre communucation.</p>
+            <p>En utilisant notre formulaire vous agréez à recevoir notre communication.</p>
             <p>Vous pouvez arrêtez de recevoir ces communications à tout moment.</p>
 
             <h2 class="tab-label collapsed">Hébergement</h2>
             <p>Nous sommes sur Netlify, hors région UE.</p>
         </div>
         <h2>Contacts</h2>
-        <p>Questions, clarifications, demandes ? <a href="mailto:riad@webforgood.fr"> Envoyez un email <strike>aujourd'hui</strike> maintenant</a>. Merci !</p>
+        <p>Questions, clarifications, demandes ?</p>
+        <p> <a href="https://m.me/WebForGoodFr" target="_blank" rel="norefferer, noopener" crossorigin style="color: yellow;"> Envoyez un chat via Facebook Messenger <strike>aujourd'hui</strike> maintenant</a>
+        </p>
+        <p>Merci !</p>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Name: </label>
+            </p>
+            <p><input type="text" name="name" <span class="bar"></span>
+            </p>
+            <p>
+                <label>Email: </label></p>
+            <p>
+                <input type="email" name="email" />
+            </p>
+
+            <p>
+                <label>Message:</label>
+            </p>
+            <p>
+                <textarea name="message"></textarea>
+            </p>
+            <p>
+                <button1 style="
+                    padding: 15px 30px;
+                    color: black;
+                    background-color: #ffd31d;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    border: 0;
+                    font-size: .8rem;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    border-radius: 50px;
+                    
+                    " type="submit">Envoyez</button1>
+            </p>
+
+        </form>
     </section>
+
     <footer>
         <div container style="padding-bottom: 15px;">
             <footer style="width: 100%;">
                 <span class="footers" style="padding:15px;"><a href="privacy.html">confidentialité</a></span>
-                <span class="footers" style="padding:15px;"><a href="start.html" target="_blank">contact</a></span>
+                <span class="footers" style="padding:15px;"><a href="https://m.me/WebForGoodFr" target="_blank" rel="noreferrer">messenger</a></span>
                 <span class="footers" style="padding:15px;"><a href="https://webforgood.fr/fr/index.html">français</a></span>
                 <span class="footers" style="padding:15px;"><a href="https://webforgood.fr/index.html">english</a></span>
 
